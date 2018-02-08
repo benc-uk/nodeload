@@ -1,0 +1,23 @@
+{
+  "name": "nodeload",
+  "version": "1.0.0",
+  "description": "Containerized HTTP proxy and load balancer using Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benc-uk/nodeload.git"
+  },
+  "author": "Ben Coleman",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/benc-uk/nodeload/issues"
+  },
+  "homepage": "https://github.com/benc-uk/nodeload#readme",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "http-proxy": "^1.16.2"
+  }
+}
